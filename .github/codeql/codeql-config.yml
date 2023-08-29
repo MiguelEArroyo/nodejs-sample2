@@ -1,0 +1,9 @@
+name: "My CodeQL config"
+
+# restric code scanning to files in specific directories
+paths:
+  - src
+# exclude the files in specific directories from analysis
+paths-ignore:
+  - src/node_modules
+  - '**/*.test.js'
